@@ -1,0 +1,36 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.card {
+
+  padding: 20px;
+  border: 1px solid red;
+  width: 300px;
+  border-radius: 8px;
+  background-color: rgba(35, 31, 31, 0.364);
+  margin :20px;
+}
+
+.card img{
+  
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card button{
+  padding: 10px;
+  border-radius: 10px;
+  background-color:rgb(69, 62, 62);
+  color: white;
+  cursor: pointer;
+}
+
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+}
