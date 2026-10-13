@@ -5,6 +5,7 @@ import MainContent from "./component/MainContent";
 import Footer from "./component/Footer";
 import DynamicContent from "./component/DynamicContent";
 import ProductInfo from "./component/ProductInfo";
+import List from "./component/List";
 
 const App = () => {
   return (
@@ -18,8 +19,10 @@ const App = () => {
         <Footer /> 
 */}
 
-      <DynamicContent />
-      <ProductInfo />
+      {/* <DynamicContent />
+      <ProductInfo /> */}
+
+      <List />
 
       </div>
   );
