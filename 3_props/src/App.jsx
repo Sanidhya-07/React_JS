@@ -3,6 +3,7 @@ import Card from './component/card';
 // import Person from './component/Person';
 import Product from './component/Product';
 import Chart from './component/Chart';
+import Conditional from './component/Conditional';
 
 const App = () => {
   return (
@@ -14,8 +15,8 @@ const App = () => {
         {/* <Person name="John Doe" age={30} /> */}
         {/* <Product name="Laptop" price={1000} /> */}
 
-        // Props children example 
-        <Chart>
+        {/* // Props children example  */}
+        {/* <Chart>
           <h1>Sanidhya Naik</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, beatae.</p>
         </Chart>
@@ -23,7 +24,9 @@ const App = () => {
         <Chart>
           <h1>Prem Patil</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, beatae.</p>
-        </Chart>
+        </Chart> */}
+
+        <Conditional isValid={false} />
 
       </div>
   );
