@@ -4,6 +4,9 @@ import Card from './component/card';
 import Product from './component/Product';
 import Chart from './component/Chart';
 import Conditional from './component/Conditional';
+import Weather from './component/Weather';
+import UserStatus from './component/UserStatus';
+import Greeting from './component/Greeting';
 
 const App = () => {
   return (
@@ -26,7 +29,11 @@ const App = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, beatae.</p>
         </Chart> */}
 
-        <Conditional isValid={false} />
+        {/* <Conditional isValid={false} /> */}
+
+        <Weather temperature={14} />
+        <UserStatus loggedIn={false} admin={false} />
+        <Greeting timeOfDay="Morning" />
 
       </div>
   );
